@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Little Airbomb
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is hosted at with [Little - airbomb](https://little-airbomb.netlify.app/).
 
 ## Available Scripts
 
