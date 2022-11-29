@@ -23,7 +23,7 @@ const SellerCard = (props: SellerCardProps) => {
             >
                 <FiHeart color='white' className='absolute right-4 top-4' size={20} fill="black" fillOpacity={0.5}/>
             </div>
-            <div className='py-1'>
+            <div className='py-1 scale-90 sm:scale-100'>
                 <div className='flex items-center'>
                     <AiFillStar size={16}/>
                     <span className='font-light'>
