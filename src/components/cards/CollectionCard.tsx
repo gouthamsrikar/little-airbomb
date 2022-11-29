@@ -13,9 +13,9 @@ const CollectionCard = (props: CollectionCardProps) => {
 
         <div
             style={{ backgroundImage: `url(${props.bgUrl})`, backgroundPosition: `center`, width: props.width, aspectRatio: props.ratio }}
-            className='ml-[30px] p-6 bg-cover bg-gray-300  flex-col flex  rounded-2xl justify-between'>
+            className='ml-[30px] p-6 bg-cover bg-gray-300  flex-col flex  rounded-2xl justify-between relative'>
 
-            <div className='max-w-[40%]'>
+            <div className='max-w-[50%]'>
                 <h2 className='text-white text-xs'>
                     Collection
                 </h2>
@@ -25,7 +25,7 @@ const CollectionCard = (props: CollectionCardProps) => {
             </div>
 
 
-            <div className='w-[80px] cursor-pointer py-1 px-3 bg-white rounded-lg text-sm active:scale-90 transition duration-300'>
+            <div className='w-[80px] absolute bottom-6 left-6 cursor-pointer py-1 text-center bg-white rounded-lg text-sm active:scale-90 transition duration-300'>
                 Show all
             </div>
         </div>

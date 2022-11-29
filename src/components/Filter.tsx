@@ -26,7 +26,7 @@ const Filter = () => {
 
     return (
         <div className='px-3 sm:px-10 lg:px-20  xl:px-30 2xl:px-40 flex my-5 items-center sm:overflow-x-auto'>
-            <div className='hidden sm:inline-flex   space-x-2 w-[365px]'>
+            <div className='hidden sm:inline-flex items-center space-x-2 w-[365px]'>
                 <MainFilterButton title='Dates' />
                 <MainFilterButton title='Group size' />
                 <MainFilterButton title='More filters' />
